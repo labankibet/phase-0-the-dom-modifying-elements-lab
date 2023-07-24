@@ -118,10 +118,10 @@ Assume our HTML includes a `main` element with an `id` of "main." We can grab
 that element and set its `innerHTML` attribute to any HTML we like:
 
 ```js
-const main = document.getElementById("main");
-main.innerHTML =
-  "<h1>Poodles!</h1><h3>An Essay into the Pom-Pom as Aesthetic Reconfiguration of the Other from a post-Frankfurt School Appropriationist Perspective</h3><p><em>By: Byron Q. Poodle, Esq., BA.</em></p>";
-```
+  const main = document.getElementById("main");
+  main.innerHTML =
+    "<h1>Poodles!</h1><h3>An Essay into the Pom-Pom as Aesthetic Reconfiguration of the Other from a post-Frankfurt School Appropriationist Perspective</h3><p><em>By: Byron Q. Poodle, Esq., BA.</em></p>";
+  ```
 
 Here we are using one big, long string, complete with multiple HTML tags, to
 create the following HTML in the DOM:
